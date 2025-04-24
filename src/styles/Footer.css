@@ -1,0 +1,31 @@
+.footer {
+    background-color: var(--bg-primary);
+    border-top: 1px solid var(--border);
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .visitor-counter {
+    margin-bottom: 20px;
+  }
+  
+  .visitor-count {
+    font-weight: 600;
+    color: var(--accent);
+  }
+  
+  .copyright {
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+  }
+  
+  .footer-message {
+    font-size: 0.9rem;
+  }
+  
+  .footer-message p {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+  }
