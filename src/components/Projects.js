@@ -59,7 +59,7 @@ const Projects = () => {
       description: "Modern, responsive developer portfolio showcasing projects, skills and achievements.",
       techStack: ["React", "CSS", "Framer Motion"],
       github: "https://github.com/awadhesh8994",
-      liveDemo: "https://awadhesh.example.com",
+      liveDemo: "https://awadhesh-io.onrender.com/",
     },
   ];
 
