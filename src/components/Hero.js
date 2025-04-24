@@ -11,7 +11,7 @@ const Hero = () => {
   }, []);
 
   const handleDownloadResume = () => {
-    window.open('/resume.pdf', '_blank');
+    window.open('https://drive.google.com/file/d/1BW1kpIulJVD4tzB9orFxkJGSira-FFU9/view?usp=sharing', '_blank');
   };
 
   const handleScrollToContact = () => {
