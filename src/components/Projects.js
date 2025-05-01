@@ -47,11 +47,11 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: "CGPA Calculator Web App",
-      description: "Simple tool to calculate Cumulative Grade Point Average with semester-wise tracking and subject management.",
+      title: "URL Shortener ",
+      description: "Developed a URL shortener app that allows users to shorten long URLs and redirect them to the original link.",
       techStack: ["HTML", "CSS", "JavaScript", "LocalStorage API"],
-      github: "https://github.com/awadhesh8994",
-      liveDemo: "https://cgpa-calc.example.com",
+      github: "https://github.com/awadhesh8994/url_shortner.git",
+      liveDemo: "https://url-shortner-eight-black.vercel.app/",
     },
     {
       id: 4,
