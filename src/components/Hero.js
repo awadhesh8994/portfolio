@@ -11,7 +11,7 @@ const Hero = () => {
   }, []);
 
   const handleDownloadResume = () => {
-    window.open('https://drive.google.com/file/d/1THdYD9ASB9V-p2ZIdwa6lgjXV2Ptx0g2/view?usp=sharing', '_blank');
+    window.open('https://drive.google.com/uc?export=download&id=1THdYD9ASB9V-p2ZIdwa6lgjXV2Ptx0g2', '_blank');
   };
 
   const handleScrollToContact = () => {
