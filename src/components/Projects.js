@@ -28,7 +28,7 @@ const Projects = () => {
     };
   }, []);
 
-   const projects = [
+    const projects = [
     {
       id: 1,
       title: "Second-Hand Book Marketplace",
@@ -62,6 +62,7 @@ const Projects = () => {
       liveDemo: "https://awadhesh-io.onrender.com/",
     },
   ];
+
 
 
   return (
