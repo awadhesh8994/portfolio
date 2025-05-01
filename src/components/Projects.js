@@ -31,11 +31,11 @@ const Projects = () => {
     const projects = [
     {
       id: 1,
-      title: "Second-Hand Book Marketplace",
-      description: "A platform connecting buyers and sellers of used books with features like search, user reviews, and secure payments.",
-      techStack: ["React", "Node.js", "Express", "MongoDB", "JWT"],
-      github: "https://github.com/awadhesh8994",
-      liveDemo: "https://bookmarket.example.com",
+      title: "QR Code Generato",
+      description: "The QR Code Generator is a JavaScript-based web app that generates QR codes for URLs, text, emails, and phone numbers It features real-time generation, offering a simple and responsive user interface.",
+      techStack: ["HTML","CSS","Javascript"],
+      github: "https://github.com/awadhesh8994/QR-Code-Generator.git",
+      liveDemo: "https://qr-code-generator-sigma-nine.vercel.app/",
     },
     {
       id: 2,
