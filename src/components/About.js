@@ -1,4 +1,3 @@
-// src/components/About.js
 import React, { useEffect, useRef } from 'react';
 import '../styles/About.css';
 
