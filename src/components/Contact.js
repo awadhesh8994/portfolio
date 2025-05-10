@@ -1,4 +1,3 @@
-// src/components/Contact.js
 import React, { useEffect, useRef, useState } from 'react';
 import '../styles/Contact.css';
 
