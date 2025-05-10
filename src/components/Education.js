@@ -1,4 +1,3 @@
-// src/components/Education.js
 import React, { useEffect, useRef, useState } from 'react';
 import '../styles/Education.css';
 
