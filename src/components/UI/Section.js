@@ -1,4 +1,3 @@
-// src/components/UI/Section.js
 import React, { useRef, useEffect, useState } from 'react';
 
 const Section = ({ id, className, title, children }) => {
