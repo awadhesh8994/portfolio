@@ -1,4 +1,3 @@
-// src/components/Hero.js
 import React, { useEffect, useState } from 'react';
 import '../styles/Hero.css';
 import profileImage from '../assets/profile.jpg';
