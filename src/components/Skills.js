@@ -1,4 +1,3 @@
-// src/components/Skills.js
 import React, { useEffect, useRef, useState } from 'react';
 import '../styles/Skills.css';
 
