@@ -31,7 +31,7 @@ const Projects = () => {
     const projects = [
     {
       id: 1,
-      title: "QR Code Generato",
+      title: "QR Code Generator",
       description: "The QR Code Generator is a JavaScript-based web app that generates QR codes for URLs, text, emails, and phone numbers It features real-time generation, offering a simple and responsive user interface.",
       techStack: ["HTML","CSS","Javascript"],
       github: "https://github.com/awadhesh8994/QR-Code-Generator.git",
