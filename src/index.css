@@ -14,6 +14,9 @@
   --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
   --gradient-start: #4f46e5;
   --gradient-end: #8b5cf6;
+  --accent-rgb: 79, 70, 229;
+  --accent-secondary: #7c3aed;
+  
 }
 
 .dark-mode {
