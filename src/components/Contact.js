@@ -121,6 +121,7 @@ const Contact = () => {
                 >
                   <span className="social-icon">{link.icon}</span>
                   <span className="social-name">{link.name}</span>
+                  
                 </a>
               ))}
             </div>

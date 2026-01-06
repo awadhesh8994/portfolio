@@ -76,6 +76,12 @@ const Education = () => {
       location: "Lucknow, India",
       period: "2020 – 2026 (Expected)",
     },
+    {
+      id: 2,
+      degree: "Higher Secondary Education (12th Grade)",
+      institution: "M B Vidyapeeth Inter College",
+      location: "Bahraich,UP,India",
+      period: "2022",}
     // Add more degrees here in reverse chronological order
   ];
 
