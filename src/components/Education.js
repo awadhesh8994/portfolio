@@ -74,7 +74,7 @@ const Education = () => {
       degree: "B.Tech in Computer Science and Engineering",
       institution: "Goel Institute of Technology & Management",
       location: "Lucknow, India",
-      period: "2020 – 2026 (Expected)",
+      period: "2022 – 2026",
     },
     {
       id: 2,
