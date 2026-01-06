@@ -42,11 +42,25 @@ const Skills = () => {
       skills: [
         { name: "Node.js", level: 70 },
         { name: "Express.js", level: 65 },
+        { name: "RESTful APIs", level: 60 },
       ],
     },
     {
       name: "Database",
-      skills: [{ name: "MongoDB", level: 60 }],
+      skills: [
+        { name: "MongoDB", level: 60 },
+        { name: "MySQL", level: 55 },
+      ],
+    },
+    {
+      name: "programming Languages",
+      skills: [
+        { name: "C", level: 70 },
+
+        { name: "Python", level: 60 },
+
+        { name: "JavaScript", level: 75 },
+      ],
     },
     {
       name: "Tools & Others",
@@ -54,6 +68,9 @@ const Skills = () => {
         { name: "Git", level: 75 },
         { name: "Vercel", level: 65 },
         { name: "Postman", level: 70 },
+        { name: "VScode", level: 90 },
+        { name: "Render", level: 70 },
+        { name: "Netlify", level: 75 },
       ],
     },
   ];
@@ -89,9 +106,7 @@ const Skills = () => {
                         className="skill-progress"
                         style={{
                           width: isVisible ? `${skill.level}%` : "0%",
-                          animationDelay: `${
-                            skillIndex * 0.1 + 0.3
-                          }s`,
+                          animationDelay: `${skillIndex * 0.1 + 0.3}s`,
                         }}
                       />
                     </div>

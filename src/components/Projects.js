@@ -30,13 +30,14 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "QR Code Generator",
+      title: "XpensaAI – Smart Expense Tracker",
       description:
-        "The QR Code Generator is a JavaScript-based web app that generates QR codes for URLs, text, emails, and phone numbers. It features real-time generation with a simple and responsive UI.",
-      techStack: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/awadhesh8994/QR-Code-Generator.git",
-      liveDemo: "https://qr-code-generator-sigma-nine.vercel.app/",
+        "XpensaAI is an intelligent expense tracking web application that helps users manage and analyze their spending. Built with the MERN stack and powered by the OpenAI API, it provides smart expense categorization, insights, and summaries for better financial decisions.",
+      techStack: ["MongoDB", "Express.js", "React", "Node.js", "OpenAI API"],
+      github: "https://github.com/awadhesh8994/XpensAI",
+      liveDemo: "https://xpensaai.netlify.app/",
     },
+
     {
       id: 2,
       title: "Image Compressor",
@@ -57,13 +58,14 @@ const Projects = () => {
     },
     {
       id: 4,
-      title: "Portfolio Website",
+      title: "CampusConnect",
       description:
-        "Modern, responsive developer portfolio showcasing projects, skills, and achievements.",
-      techStack: ["React", "CSS", "Framer Motion"],
-      github: "https://github.com/awadhesh8994",
-      liveDemo: "https://awadhesh-io.onrender.com/",
+        "Campus Connect is a MERN-based web platform designed for college communities. It allows students to upload and download notes, create campus events, and RSVP to events, making collaboration and communication easier within the campus.",
+      techStack: ["MongoDB", "Express.js", "React", "Node.js"],
+      github: "https://github.com/awadhesh8994/campusconnect.git",
+      liveDemo: "https://campusconnect-cc.vercel.app/",
     },
+    
   ];
 
   return (
