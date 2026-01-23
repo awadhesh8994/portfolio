@@ -1,35 +1,25 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 
 const useDarkMode = () => {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(() => {
+    const saved = localStorage.getItem("theme");
+    if (saved) return saved === "dark";
+    return window.matchMedia("(prefers-color-scheme: dark)").matches;
+  });
 
   useEffect(() => {
-    // Check for system preference or saved preference
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const savedPreference = localStorage.getItem('darkMode');
-    
-    if (savedPreference !== null) {
-      setDarkMode(savedPreference === 'true');
-    } else {
-      setDarkMode(prefersDark);
-    }
-  }, []);
+    const root = document.documentElement;
 
-  useEffect(() => {
-    // Apply the dark mode class to the body
     if (darkMode) {
-      document.body.classList.add('dark-mode');
+      root.classList.add("dark");
+      localStorage.setItem("theme", "dark");
     } else {
-      document.body.classList.remove('dark-mode');
+      root.classList.remove("dark");
+      localStorage.setItem("theme", "light");
     }
-    
-    // Save preference to localStorage
-    localStorage.setItem('darkMode', darkMode);
   }, [darkMode]);
 
-  const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
-  };
+  const toggleDarkMode = () => setDarkMode(prev => !prev);
 
   return [darkMode, toggleDarkMode];
 };
