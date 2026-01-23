@@ -4,7 +4,7 @@ import '../styles/DarkModeToggle.css';
 const DarkModeToggle = ({ darkMode, toggleDarkMode }) => {
   return (
     <div className="dark-mode-toggle">
-      <button 
+      {/* <button 
         className={`toggle-btn ${darkMode ? 'dark' : 'light'}`} 
         onClick={toggleDarkMode}
         aria-label="Toggle dark mode"
@@ -14,7 +14,7 @@ const DarkModeToggle = ({ darkMode, toggleDarkMode }) => {
           <span className="toggle-icon light">☀️</span>
           <span className="toggle-icon dark">🌙</span>
         </div>
-      </button>
+      </button> */}
     </div>
   );
 };
