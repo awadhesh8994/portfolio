@@ -80,14 +80,14 @@ const Contact = () => {
       icon: "🔗",
     },
     {
-      name: "Coding Ninjas",
-      url: "https://www.naukri.com/code360/profile/awadheshk",
-      icon: "⚔️",
+      name: "Instagram",
+      url: "https://www.instagram.com/___awadhesh89?igsh=MTIybG4wMnNkM3dtNQ==",
+      icon: "📸",
     },
     {
-      name: "X",
-      url: "https://x.com/awadhesh8994",
-      icon: "𝕏",
+      name: "Whatsapp",
+      url: "https://wa.me/918957718541?text=Hi%2C%20I%20want%20to%20discuss%20a%20project%20with%20you.",
+      icon: "📱",
     },
   ];
 

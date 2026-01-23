@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import DarkModeToggle from './components/DarkModeToggle';
 import useDarkMode from './hooks/useDarkMode';
 import './index.css';
+import Services from './components/Services';
 
 function App() {
   const [darkMode, toggleDarkMode] = useDarkMode();
@@ -18,6 +19,7 @@ function App() {
       <DarkModeToggle darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <Hero />
       <About />
+      <Services />
       <Skills />
       <Projects />
       <Education />
