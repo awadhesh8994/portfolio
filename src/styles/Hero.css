@@ -139,7 +139,7 @@
 /* Content */
 .hero-content {
   display: grid;
-  grid-template-columns: 450px 1fr;
+  grid-template-columns: 1fr 450px;
   gap: 80px;
   align-items: center;
   opacity: 0;
@@ -152,11 +152,12 @@
   transform: translateY(0);
 }
 
-/* Left Side - Profile */
+/* Right Side - Profile */
 .hero-left {
   display: flex;
   justify-content: center;
   align-items: center;
+  order: 2;
 }
 
 .profile-box {
@@ -169,7 +170,7 @@
 @keyframes slideInLeft {
   from {
     opacity: 0;
-    transform: translateX(-50px);
+    transform: translateX(50px);
   }
   to {
     opacity: 1;
@@ -205,7 +206,6 @@
   height: 100%;
   object-fit: cover;
   border-radius: 30px;
-  border: 6px solid var(--bg-secondary);
   box-shadow: var(--shadow-lg), 0 0 60px var(--glow-color);
   position: relative;
   z-index: 2;
@@ -258,15 +258,16 @@
   }
 }
 
-/* Right Side - Content */
+/* Left Side - Content */
 .hero-right {
   animation: slideInRight 1s ease 0.4s both;
+  order: 1;
 }
 
 @keyframes slideInRight {
   from {
     opacity: 0;
-    transform: translateX(50px);
+    transform: translateX(-50px);
   }
   to {
     opacity: 1;
@@ -522,7 +523,7 @@
 /* Responsive Design */
 @media (max-width: 1200px) {
   .hero-content {
-    grid-template-columns: 400px 1fr;
+    grid-template-columns: 1fr 400px;
     gap: 60px;
   }
 

@@ -55,13 +55,11 @@ const Hero = () => {
             </h1>
 
             <p className="hero-tagline">
-              Building exceptional digital experiences with modern web technologies
+              Designing and building immersive digital experiences with modern web technologies.
             </p>
 
             <p className="hero-bio">
-              Computer Science Engineer passionate about creating beautiful, 
-              responsive web applications. I specialize in React, Node.js, and 
-              modern frontend frameworks to bring ideas to life.
+            Computer Science Engineer passionate about crafting beautiful, responsive web applications. I specialize in React, Node.js, and modern frontend technologies to bring ideas to life.
             </p>
 
             <div className="hero-features">
