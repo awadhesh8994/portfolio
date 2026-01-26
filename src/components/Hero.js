@@ -1,42 +1,36 @@
 import React, { useEffect, useState } from 'react';
 import '../styles/Hero.css';
-import profileImage from '../assets/profile2.jpg';
 
 const Hero = () => {
   const [animated, setAnimated] = useState(false);
   const [theme, setTheme] = useState('light');
 
   useEffect(() => {
-    // Check for saved theme preference or default to light
-    const savedTheme = localStorage.getItem('theme') || 'light';
-    setTheme(savedTheme);
-    document.documentElement.setAttribute('data-theme', savedTheme);
-    
     setTimeout(() => setAnimated(true), 50);
   }, []);
 
   const toggleTheme = () => {
     const newTheme = theme === 'light' ? 'dark' : 'light';
     setTheme(newTheme);
-    localStorage.setItem('theme', newTheme);
     document.documentElement.setAttribute('data-theme', newTheme);
   };
 
   const handleDownloadResume = () => {
-  window.open(
-    'https://drive.google.com/file/d/1THdYD9ASB9V-p2ZIdwa6lgjXV2Ptx0g2/view',
-    '_blank'
-  );
-};
-
+    window.open(
+      'https://drive.google.com/file/d/1THdYD9ASB9V-p2ZIdwa6lgjXV2Ptx0g2/view',
+      '_blank'
+    );
+  };
 
   const handleScrollToContact = () => {
-    document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+    const contactSection = document.getElementById('contact');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
   };
 
   return (
     <section className="hero-section">
-      {/* Theme Toggle */}
       <button className="theme-toggle" onClick={toggleTheme} aria-label="Toggle theme">
         {theme === 'light' ? (
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
@@ -59,17 +53,17 @@ const Hero = () => {
 
       <div className="hero-container">
         <div className={`hero-content ${animated ? 'hero-animated' : ''}`}>
-          
-          {/* Left Side - Profile */}
           <div className="hero-left">
             <div className="profile-box">
               <div className="profile-glow"></div>
-              <img src={profileImage} alt="Awadhesh Kumar" className="profile-img" />
-              
+              <img 
+                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=500&fit=crop" 
+                alt="Awadhesh Kumar" 
+                className="profile-img" 
+              />
             </div>
           </div>
 
-          {/* Right Side - Content */}
           <div className="hero-right">
             <div className="hero-label">
               <span className="label-icon">✦</span>
@@ -133,7 +127,6 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Decorative Elements */}
         <div className="hero-decoration hero-decoration-1"></div>
         <div className="hero-decoration hero-decoration-2"></div>
       </div>
