@@ -13,8 +13,7 @@ const Hero = () => {
 
   const handleDownloadResume = () => {
     window.open(
-      'https://drive.google.com/file/d/1THdYD9ASB9V-p2ZIdwa6lgjXV2Ptx0g2/view',
-      '_blank'
+      https://docs.google.com/document/d/1QtJK6QVjElfxSzXRzUOMJAvU12UGc0WE/edit?usp=drive_link&ouid=107855098643056323742&rtpof=true&sd=true
     );
   };
 
@@ -32,10 +31,10 @@ const Hero = () => {
           <div className="hero-left">
             <div className="profile-box">
               <div className="profile-glow"></div>
-              <img 
-                src={profileImg} 
-                alt="Awadhesh Kumar" 
-                className="profile-img" 
+              <img
+                src={profileImg}
+                alt="Awadhesh Kumar"
+                className="profile-img"
               />
             </div>
           </div>
@@ -55,8 +54,8 @@ const Hero = () => {
             </p>
 
             <p className="hero-bio">
-              Computer Science Engineer passionate about creating beautiful, 
-              responsive web applications. I specialize in React, Node.js, and 
+              Computer Science Engineer passionate about creating beautiful,
+              responsive web applications. I specialize in React, Node.js, and
               modern frontend frameworks to bring ideas to life.
             </p>
 
@@ -88,15 +87,15 @@ const Hero = () => {
               <button className="hero-btn hero-btn-primary" onClick={handleDownloadResume}>
                 <span>View Resume</span>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                  <polyline points="7 10 12 15 17 10" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                  <line x1="12" y1="15" x2="12" y2="3" strokeWidth="2" strokeLinecap="round"/>
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                  <polyline points="7 10 12 15 17 10" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                  <line x1="12" y1="15" x2="12" y2="3" strokeWidth="2" strokeLinecap="round" />
                 </svg>
               </button>
               <button className="hero-btn hero-btn-secondary" onClick={handleScrollToContact}>
                 <span>Let's Talk</span>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                  <path d="M5 12h14M12 5l7 7-7 7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M5 12h14M12 5l7 7-7 7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               </button>
             </div>
