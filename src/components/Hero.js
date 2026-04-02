@@ -13,7 +13,7 @@ const Hero = () => {
 
   const handleDownloadResume = () => {
     window.open(
-      'https://docs.google.com/document/d/1THdYD9ASB9V-p2ZIdwa6lgjXV2Ptx0g2/edit?usp=drive_link&ouid=105922972822674603237&rtpof=true&sd=true',
+      'https://drive.google.com/file/d/1PV6J2o6O2DUbFKT1QW4qCyfNJNZd8o5G/view?usp=sharing',
       '_blank'
     );
   };
